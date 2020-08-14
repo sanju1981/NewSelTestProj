@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">12 methods,   12 passed</span>
+                    <span class="method-stats">12 methods, 1 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.NewSElTest.TestPage.PIMPageTest" hash-for-method="validatePerson">validatePerson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -142,11 +156,6 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.NewSElTest.TestPage.PIMPageTest" hash-for-method="validatePerson">validatePerson</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.NewSElTest.TestPage.HomeTest" hash-for-method="validateSearch(Martin1, Hello world)">validateSearch(Martin1, Hello world)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -172,6 +181,47 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.NewSElTest.TestPage.PIMPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePerson">
+                  </a> <!-- validatePerson -->
+                  <span class="method-name">validatePerson</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[text()=&apos;Personal Details&apos;]&quot;}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-BIDVEQPH&apos;, ip: &apos;192.168.0.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\rajam\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 23f300cfa92e8a883a8b08008c8415b9
+*** Element info: {Using=xpath, value=//h1[text()=&apos;Personal Details&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at com.NewSElTest.page.PIMPage.verifyClikHello(PIMPage.java:79)
+	at com.NewSElTest.TestPage.PIMPageTest.validatePerson(PIMPageTest.java:42)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -254,13 +304,6 @@
                   <a name="validateEmpname">
                   </a> <!-- validateEmpname -->
                   <span class="method-name">validateEmpname</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validatePerson">
-                  </a> <!-- validatePerson -->
-                  <span class="method-name">validatePerson</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -355,53 +398,53 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'ValidateUser')
-data.setCell(0, 2, 'com.NewSElTest.TestPage.HomeTest')
-data.setCell(0, 3, 24798);
+data.setCell(0, 1, 'validatePerson')
+data.setCell(0, 2, 'com.NewSElTest.TestPage.PIMPageTest')
+data.setCell(0, 3, 30573);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'ValidateUser')
 data.setCell(1, 2, 'com.NewSElTest.TestPage.HomeTest')
-data.setCell(1, 3, 24628);
+data.setCell(1, 3, 24972);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validatePerson')
-data.setCell(2, 2, 'com.NewSElTest.TestPage.PIMPageTest')
-data.setCell(2, 3, 14296);
+data.setCell(2, 1, 'ValidateUser')
+data.setCell(2, 2, 'com.NewSElTest.TestPage.HomeTest')
+data.setCell(2, 3, 24526);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verifyCheckStstus')
 data.setCell(3, 2, 'com.NewSElTest.TestPage.LeaveTest')
-data.setCell(3, 3, 10189);
+data.setCell(3, 3, 10184);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'VerifyToDate')
 data.setCell(4, 2, 'com.NewSElTest.TestPage.LeaveTest')
-data.setCell(4, 3, 9689);
+data.setCell(4, 3, 10070);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'validateEmpname')
 data.setCell(5, 2, 'com.NewSElTest.TestPage.PIMPageTest')
-data.setCell(5, 3, 8407);
+data.setCell(5, 3, 9088);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'validateSearch')
 data.setCell(6, 2, 'com.NewSElTest.TestPage.HomeTest')
-data.setCell(6, 3, 7504);
+data.setCell(6, 3, 7698);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'validateSearch')
 data.setCell(7, 2, 'com.NewSElTest.TestPage.HomeTest')
-data.setCell(7, 3, 7443);
+data.setCell(7, 3, 7476);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'validateAccont')
 data.setCell(8, 2, 'com.NewSElTest.TestPage.LoginTest')
-data.setCell(8, 3, 6022);
+data.setCell(8, 3, 6025);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'validateAccont')
 data.setCell(9, 2, 'com.NewSElTest.TestPage.LoginTest')
-data.setCell(9, 3, 4744);
+data.setCell(9, 3, 4728);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'validateConfigure')
 data.setCell(10, 2, 'com.NewSElTest.TestPage.LeaveTest')
-data.setCell(10, 3, 4483);
+data.setCell(10, 3, 3709);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'validatePageTitle')
 data.setCell(11, 2, 'com.NewSElTest.TestPage.LoginTest')
-data.setCell(11, 3, 27);
+data.setCell(11, 3, 16);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -439,161 +482,163 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateAccont(Admin, admin123)</span>
-                <span class="method-start">11779 ms</span>
+                <span class="method-start">12123 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17811 ms</span>
+                <span class="method-start">18219 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">18179 ms</span>
+                <span class="method-start">18408 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateAccont(Sanjit, sanjit123)</span>
-                <span class="method-start">25351 ms</span>
+                <span class="method-start">25450 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">30095 ms</span>
+                <span class="method-start">30180 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">30233 ms</span>
+                <span class="method-start">30323 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validatePageTitle</span>
-                <span class="method-start">36767 ms</span>
+                <span class="method-start">37327 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">36795 ms</span>
+                <span class="method-start">37344 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.NewSElTest.TestPage.HomeTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">37009 ms</span>
+                <span class="method-start">37681 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ValidateUser(Martin1, Hello world)</span>
-                <span class="method-start">50187 ms</span>
+                <span class="method-start">51430 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">74986 ms</span>
+                <span class="method-start">76402 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">75065 ms</span>
+                <span class="method-start">76509 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ValidateUser(Jackson1, Hello world)</span>
-                <span class="method-start">89097 ms</span>
+                <span class="method-start">90528 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">113726 ms</span>
+                <span class="method-start">115055 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.NewSElTest.TestPage.PIMPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">113783 ms</span>
+                <span class="method-start">115172 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateEmpname</span>
-                <span class="method-start">126933 ms</span>
+                <span class="method-start">127673 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">135341 ms</span>
+                <span class="method-start">136763 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.NewSElTest.TestPage.LeaveTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">135425 ms</span>
+                <span class="method-start">136863 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyToDate</span>
-                <span class="method-start">147805 ms</span>
+                <span class="method-start">149786 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">157496 ms</span>
+                <span class="method-start">159857 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.NewSElTest.TestPage.HomeTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">157719 ms</span>
+                <span class="method-start">160254 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateSearch(Martin1, Hello world)</span>
-                <span class="method-start">171654 ms</span>
+                <span class="method-start">173580 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">179158 ms</span>
+                <span class="method-start">181279 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">179223 ms</span>
+                <span class="method-start">181410 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateSearch(Jackson1, Hello world)</span>
-                <span class="method-start">192206 ms</span>
+                <span class="method-start">194232 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">199650 ms</span>
+                <span class="method-start">201708 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.NewSElTest.TestPage.PIMPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">199738 ms</span>
+                <span class="method-start">201839 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">validatePerson</span>
-                <span class="method-start">213918 ms</span>
+                <span class="method-start">215408 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">228215 ms</span>
+                <span class="method-start">246416 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.NewSElTest.TestPage.LeaveTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">228277 ms</span>
+                <span class="method-start">246508 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyCheckStstus</span>
-                <span class="method-start">240940 ms</span>
+                <span class="method-start">260202 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">251129 ms</span>
+                <span class="method-start">270387 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">255549 ms</span>
+                <span class="method-start">270685 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateConfigure</span>
-                <span class="method-start">268530 ms</span>
+                <span class="method-start">284569 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">273013 ms</span>
+                <span class="method-start">288279 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

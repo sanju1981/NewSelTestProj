@@ -7,13 +7,13 @@
   </listeners>
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
-      <class name="com.NewSElTest.TestPage.HomeTest">
+      <class name="com.NewSElTest.TestPage.PIMPageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="validateSearch" invocation-numbers="0 1"/>
-          <include name="setup"/>
+          <include name="validatePerson"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.NewSElTest.TestPage.HomeTest -->
+      </class> <!-- com.NewSElTest.TestPage.PIMPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
