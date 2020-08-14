@@ -8,9 +8,9 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.NewSElTest.TestPage.LoginTest"/>
-   		<class name="com.NewSElTest.TestPage.HomeTest"/> 
+      <class name="com.NewSElTest.TestPage.HomeTest"/> 
        <class name="com.NewSElTest.TestPage.PIMPageTest"/> 
-      <class name="com.NewSElTest.TestPage.LeaveTest"/> 
+      <class name="com.NewSElTest.TestPage.LeaveTest"/>    		
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

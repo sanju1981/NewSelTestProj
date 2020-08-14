@@ -1,81 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="12" passed="10">
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="325767" started-at="2020-08-10T18:56:03Z" finished-at="2020-08-10T19:01:29Z">
+  <suite name="Suite" duration-ms="280681" started-at="2020-08-10T19:01:07Z" finished-at="2020-08-10T19:05:48Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="325767" started-at="2020-08-10T18:56:03Z" finished-at="2020-08-10T19:01:29Z">
+    <test name="Test" duration-ms="280681" started-at="2020-08-10T19:01:07Z" finished-at="2020-08-10T19:05:48Z">
       <class name="com.NewSElTest.TestPage.PIMPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.PIMPageTest@3ffcd140]" name="setUp" is-config="true" duration-ms="14124" started-at="2020-08-10T18:58:05Z" finished-at="2020-08-10T18:58:19Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.PIMPageTest@3ffcd140]" name="setUp" is-config="true" duration-ms="13150" started-at="2020-08-10T19:03:08Z" finished-at="2020-08-10T19:03:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateEmpname()[pri:1, instance:com.NewSElTest.TestPage.PIMPageTest@3ffcd140]" name="validateEmpname" duration-ms="8216" started-at="2020-08-10T18:58:19Z" finished-at="2020-08-10T18:58:27Z">
+        <test-method status="PASS" signature="validateEmpname()[pri:1, instance:com.NewSElTest.TestPage.PIMPageTest@3ffcd140]" name="validateEmpname" duration-ms="8407" started-at="2020-08-10T19:03:21Z" finished-at="2020-08-10T19:03:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateEmpname -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.PIMPageTest@3ffcd140]" name="tearDown" is-config="true" duration-ms="4429" started-at="2020-08-10T18:58:27Z" finished-at="2020-08-10T18:58:31Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.PIMPageTest@3ffcd140]" name="tearDown" is-config="true" duration-ms="83" started-at="2020-08-10T19:03:30Z" finished-at="2020-08-10T19:03:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.PIMPageTest@3ffcd140]" name="setUp" is-config="true" duration-ms="13581" started-at="2020-08-10T19:00:11Z" finished-at="2020-08-10T19:00:25Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.PIMPageTest@3ffcd140]" name="setUp" is-config="true" duration-ms="14180" started-at="2020-08-10T19:04:34Z" finished-at="2020-08-10T19:04:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validatePerson()[pri:2, instance:com.NewSElTest.TestPage.PIMPageTest@3ffcd140]" name="validatePerson" duration-ms="14360" started-at="2020-08-10T19:00:25Z" finished-at="2020-08-10T19:00:39Z">
+        <test-method status="PASS" signature="validatePerson()[pri:2, instance:com.NewSElTest.TestPage.PIMPageTest@3ffcd140]" name="validatePerson" duration-ms="14296" started-at="2020-08-10T19:04:48Z" finished-at="2020-08-10T19:05:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePerson -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.PIMPageTest@3ffcd140]" name="tearDown" is-config="true" duration-ms="82" started-at="2020-08-10T19:00:39Z" finished-at="2020-08-10T19:00:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.PIMPageTest@3ffcd140]" name="tearDown" is-config="true" duration-ms="62" started-at="2020-08-10T19:05:03Z" finished-at="2020-08-10T19:05:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.NewSElTest.TestPage.PIMPageTest -->
       <class name="com.NewSElTest.TestPage.LeaveTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@23bb8443]" name="setUp" is-config="true" duration-ms="12800" started-at="2020-08-10T18:58:31Z" finished-at="2020-08-10T18:58:44Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@23bb8443]" name="setUp" is-config="true" duration-ms="12380" started-at="2020-08-10T19:03:30Z" finished-at="2020-08-10T19:03:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyToDate()[pri:1, instance:com.NewSElTest.TestPage.LeaveTest@23bb8443]" name="VerifyToDate" duration-ms="9444" started-at="2020-08-10T18:58:44Z" finished-at="2020-08-10T18:58:54Z">
+        <test-method status="PASS" signature="VerifyToDate()[pri:1, instance:com.NewSElTest.TestPage.LeaveTest@23bb8443]" name="VerifyToDate" duration-ms="9689" started-at="2020-08-10T19:03:42Z" finished-at="2020-08-10T19:03:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyToDate -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@23bb8443]" name="tearDown" is-config="true" duration-ms="111" started-at="2020-08-10T18:58:54Z" finished-at="2020-08-10T18:58:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@23bb8443]" name="tearDown" is-config="true" duration-ms="108" started-at="2020-08-10T19:03:52Z" finished-at="2020-08-10T19:03:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@23bb8443]" name="setUp" is-config="true" duration-ms="15102" started-at="2020-08-10T19:00:39Z" finished-at="2020-08-10T19:00:54Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@23bb8443]" name="setUp" is-config="true" duration-ms="12663" started-at="2020-08-10T19:05:03Z" finished-at="2020-08-10T19:05:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyCheckStstus()[pri:2, instance:com.NewSElTest.TestPage.LeaveTest@23bb8443]" name="verifyCheckStstus" duration-ms="12664" started-at="2020-08-10T19:00:54Z" finished-at="2020-08-10T19:01:07Z">
+        <test-method status="PASS" signature="verifyCheckStstus()[pri:2, instance:com.NewSElTest.TestPage.LeaveTest@23bb8443]" name="verifyCheckStstus" duration-ms="10189" started-at="2020-08-10T19:05:15Z" finished-at="2020-08-10T19:05:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckStstus -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@23bb8443]" name="tearDown" is-config="true" duration-ms="118" started-at="2020-08-10T19:01:07Z" finished-at="2020-08-10T19:01:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@23bb8443]" name="tearDown" is-config="true" duration-ms="4419" started-at="2020-08-10T19:05:26Z" finished-at="2020-08-10T19:05:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@23bb8443]" name="setUp" is-config="true" duration-ms="15877" started-at="2020-08-10T19:01:07Z" finished-at="2020-08-10T19:01:23Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@23bb8443]" name="setUp" is-config="true" duration-ms="12981" started-at="2020-08-10T19:05:30Z" finished-at="2020-08-10T19:05:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateConfigure()[pri:3, instance:com.NewSElTest.TestPage.LeaveTest@23bb8443]" name="validateConfigure" duration-ms="5390" started-at="2020-08-10T19:01:23Z" finished-at="2020-08-10T19:01:28Z">
+        <test-method status="PASS" signature="validateConfigure()[pri:3, instance:com.NewSElTest.TestPage.LeaveTest@23bb8443]" name="validateConfigure" duration-ms="4483" started-at="2020-08-10T19:05:43Z" finished-at="2020-08-10T19:05:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateConfigure -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@23bb8443]" name="tearDown" is-config="true" duration-ms="336" started-at="2020-08-10T19:01:28Z" finished-at="2020-08-10T19:01:29Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@23bb8443]" name="tearDown" is-config="true" duration-ms="123" started-at="2020-08-10T19:05:48Z" finished-at="2020-08-10T19:05:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.NewSElTest.TestPage.LeaveTest -->
       <class name="com.NewSElTest.TestPage.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@31206beb]" name="setup" is-config="true" duration-ms="8995" started-at="2020-08-10T18:56:05Z" finished-at="2020-08-10T18:56:14Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@31206beb]" name="setup" is-config="true" duration-ms="11779" started-at="2020-08-10T19:01:15Z" finished-at="2020-08-10T19:01:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateAccont(java.lang.String, java.lang.String)[pri:0, instance:com.NewSElTest.TestPage.LoginTest@31206beb]" name="validateAccont" duration-ms="8101" started-at="2020-08-10T18:56:14Z" data-provider="LoginData" finished-at="2020-08-10T18:56:22Z">
+        <test-method status="PASS" signature="validateAccont(java.lang.String, java.lang.String)[pri:0, instance:com.NewSElTest.TestPage.LoginTest@31206beb]" name="validateAccont" duration-ms="6022" started-at="2020-08-10T19:01:26Z" data-provider="LoginData" finished-at="2020-08-10T19:01:32Z">
           <params>
             <param index="0">
               <value>
@@ -91,15 +91,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAccont -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@31206beb]" name="tearDown" is-config="true" duration-ms="158" started-at="2020-08-10T18:56:22Z" finished-at="2020-08-10T18:56:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@31206beb]" name="tearDown" is-config="true" duration-ms="368" started-at="2020-08-10T19:01:32Z" finished-at="2020-08-10T19:01:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@31206beb]" name="setup" is-config="true" duration-ms="7606" started-at="2020-08-10T18:56:22Z" finished-at="2020-08-10T18:56:30Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@31206beb]" name="setup" is-config="true" duration-ms="7172" started-at="2020-08-10T19:01:33Z" finished-at="2020-08-10T19:01:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateAccont(java.lang.String, java.lang.String)[pri:0, instance:com.NewSElTest.TestPage.LoginTest@31206beb]" name="validateAccont" duration-ms="4714" started-at="2020-08-10T18:56:30Z" data-provider="LoginData" finished-at="2020-08-10T18:56:35Z">
+        <test-method status="PASS" signature="validateAccont(java.lang.String, java.lang.String)[pri:0, instance:com.NewSElTest.TestPage.LoginTest@31206beb]" name="validateAccont" duration-ms="4744" started-at="2020-08-10T19:01:40Z" data-provider="LoginData" finished-at="2020-08-10T19:01:45Z">
           <params>
             <param index="0">
               <value>
@@ -115,29 +115,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAccont -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@31206beb]" name="tearDown" is-config="true" duration-ms="163" started-at="2020-08-10T18:56:35Z" finished-at="2020-08-10T18:56:35Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@31206beb]" name="tearDown" is-config="true" duration-ms="137" started-at="2020-08-10T19:01:45Z" finished-at="2020-08-10T19:01:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@31206beb]" name="setup" is-config="true" duration-ms="7233" started-at="2020-08-10T18:56:35Z" finished-at="2020-08-10T18:56:42Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@31206beb]" name="setup" is-config="true" duration-ms="6533" started-at="2020-08-10T19:01:45Z" finished-at="2020-08-10T19:01:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validatePageTitle()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@31206beb]" name="validatePageTitle" duration-ms="222" started-at="2020-08-10T18:56:42Z" finished-at="2020-08-10T18:56:42Z">
+        <test-method status="PASS" signature="validatePageTitle()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@31206beb]" name="validatePageTitle" duration-ms="27" started-at="2020-08-10T19:01:51Z" finished-at="2020-08-10T19:01:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@31206beb]" name="tearDown" is-config="true" duration-ms="4244" started-at="2020-08-10T18:56:42Z" finished-at="2020-08-10T18:56:46Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@31206beb]" name="tearDown" is-config="true" duration-ms="92" started-at="2020-08-10T19:01:51Z" finished-at="2020-08-10T19:01:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.NewSElTest.TestPage.LoginTest -->
       <class name="com.NewSElTest.TestPage.HomeTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="setup" is-config="true" duration-ms="13894" started-at="2020-08-10T18:56:47Z" finished-at="2020-08-10T18:57:01Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="setup" is-config="true" duration-ms="13178" started-at="2020-08-10T19:01:52Z" finished-at="2020-08-10T19:02:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ValidateUser(java.lang.String, java.lang.String)[pri:1, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="ValidateUser" duration-ms="25173" started-at="2020-08-10T18:57:01Z" data-provider="HomeData" finished-at="2020-08-10T18:57:26Z">
+        <test-method status="PASS" signature="ValidateUser(java.lang.String, java.lang.String)[pri:1, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="ValidateUser" duration-ms="24798" started-at="2020-08-10T19:02:05Z" data-provider="HomeData" finished-at="2020-08-10T19:02:29Z">
           <params>
             <param index="0">
               <value>
@@ -153,15 +153,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateUser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="tearDown" is-config="true" duration-ms="271" started-at="2020-08-10T18:57:26Z" finished-at="2020-08-10T18:57:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="tearDown" is-config="true" duration-ms="79" started-at="2020-08-10T19:02:29Z" finished-at="2020-08-10T19:02:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="setup" is-config="true" duration-ms="14238" started-at="2020-08-10T18:57:26Z" finished-at="2020-08-10T18:57:40Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="setup" is-config="true" duration-ms="14032" started-at="2020-08-10T19:02:30Z" finished-at="2020-08-10T19:02:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ValidateUser(java.lang.String, java.lang.String)[pri:1, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="ValidateUser" duration-ms="24315" started-at="2020-08-10T18:57:40Z" data-provider="HomeData" finished-at="2020-08-10T18:58:05Z">
+        <test-method status="PASS" signature="ValidateUser(java.lang.String, java.lang.String)[pri:1, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="ValidateUser" duration-ms="24628" started-at="2020-08-10T19:02:44Z" data-provider="HomeData" finished-at="2020-08-10T19:03:08Z">
           <params>
             <param index="0">
               <value>
@@ -177,15 +177,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateUser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="tearDown" is-config="true" duration-ms="108" started-at="2020-08-10T18:58:05Z" finished-at="2020-08-10T18:58:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="tearDown" is-config="true" duration-ms="57" started-at="2020-08-10T19:03:08Z" finished-at="2020-08-10T19:03:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="setup" is-config="true" duration-ms="13627" started-at="2020-08-10T18:58:54Z" finished-at="2020-08-10T18:59:08Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="setup" is-config="true" duration-ms="13935" started-at="2020-08-10T19:03:52Z" finished-at="2020-08-10T19:04:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="validateSearch(java.lang.String, java.lang.String)[pri:2, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="validateSearch" duration-ms="24697" started-at="2020-08-10T18:59:08Z" data-provider="HomeData" finished-at="2020-08-10T18:59:32Z">
+        <test-method status="PASS" signature="validateSearch(java.lang.String, java.lang.String)[pri:2, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="validateSearch" duration-ms="7504" started-at="2020-08-10T19:04:06Z" data-provider="HomeData" finished-at="2020-08-10T19:04:14Z">
           <params>
             <param index="0">
               <value>
@@ -198,90 +198,18 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="resultTable"]/tbody/tr/td[2]/a"}
-  (Session info: chrome=84.0.4147.105)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-BIDVEQPH', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\rajam\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 778759fca1f0025f8d20696f10ad70e1
-*** Element info: {Using=xpath, value=//*[@id="resultTable"]/tbody/tr/td[2]/a}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="resultTable"]/tbody/tr/td[2]/a"}
-  (Session info: chrome=84.0.4147.105)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-BIDVEQPH', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\rajam\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 778759fca1f0025f8d20696f10ad70e1
-*** Element info: {Using=xpath, value=//*[@id="resultTable"]/tbody/tr/td[2]/a}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at com.NewSElTest.page.HomePage.verifySysUser(HomePage.java:94)
-at com.NewSElTest.TestPage.HomeTest.validateSearch(HomeTest.java:43)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="tearDown" is-config="true" duration-ms="171" started-at="2020-08-10T18:59:33Z" finished-at="2020-08-10T18:59:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="tearDown" is-config="true" duration-ms="64" started-at="2020-08-10T19:04:14Z" finished-at="2020-08-10T19:04:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="setup" is-config="true" duration-ms="13670" started-at="2020-08-10T18:59:33Z" finished-at="2020-08-10T18:59:46Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="setup" is-config="true" duration-ms="12983" started-at="2020-08-10T19:04:14Z" finished-at="2020-08-10T19:04:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="validateSearch(java.lang.String, java.lang.String)[pri:2, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="validateSearch" duration-ms="24457" started-at="2020-08-10T18:59:46Z" data-provider="HomeData" finished-at="2020-08-10T19:00:11Z">
+        <test-method status="PASS" signature="validateSearch(java.lang.String, java.lang.String)[pri:2, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="validateSearch" duration-ms="7443" started-at="2020-08-10T19:04:27Z" data-provider="HomeData" finished-at="2020-08-10T19:04:34Z">
           <params>
             <param index="0">
               <value>
@@ -294,82 +222,10 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="resultTable"]/tbody/tr/td[2]/a"}
-  (Session info: chrome=84.0.4147.105)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-BIDVEQPH', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\rajam\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b277f9276052a04cc3f07666227cbeec
-*** Element info: {Using=xpath, value=//*[@id="resultTable"]/tbody/tr/td[2]/a}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="resultTable"]/tbody/tr/td[2]/a"}
-  (Session info: chrome=84.0.4147.105)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-BIDVEQPH', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\rajam\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b277f9276052a04cc3f07666227cbeec
-*** Element info: {Using=xpath, value=//*[@id="resultTable"]/tbody/tr/td[2]/a}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at com.NewSElTest.page.HomePage.verifySysUser(HomePage.java:94)
-at com.NewSElTest.TestPage.HomeTest.validateSearch(HomeTest.java:43)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="tearDown" is-config="true" duration-ms="54" started-at="2020-08-10T19:00:11Z" finished-at="2020-08-10T19:00:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@3e77a1ed]" name="tearDown" is-config="true" duration-ms="87" started-at="2020-08-10T19:04:34Z" finished-at="2020-08-10T19:04:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

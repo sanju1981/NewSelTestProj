@@ -2,80 +2,80 @@
 <testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="289771" started-at="2020-08-07T18:13:21Z" finished-at="2020-08-07T18:18:11Z">
+  <suite name="Suite" duration-ms="292018" started-at="2020-08-14T16:37:49Z" finished-at="2020-08-14T16:42:41Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="289771" started-at="2020-08-07T18:13:21Z" finished-at="2020-08-07T18:18:11Z">
+    <test name="Test" duration-ms="292018" started-at="2020-08-14T16:37:49Z" finished-at="2020-08-14T16:42:41Z">
       <class name="com.NewSElTest.TestPage.PIMPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.PIMPageTest@54c562f7]" name="setUp" is-config="true" duration-ms="15109" started-at="2020-08-07T18:15:24Z" finished-at="2020-08-07T18:15:39Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.PIMPageTest@54c562f7]" name="setUp" is-config="true" duration-ms="14280" started-at="2020-08-14T16:39:59Z" finished-at="2020-08-14T16:40:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateEmpname()[pri:1, instance:com.NewSElTest.TestPage.PIMPageTest@54c562f7]" name="validateEmpname" duration-ms="10525" started-at="2020-08-07T18:15:39Z" finished-at="2020-08-07T18:15:50Z">
+        <test-method status="PASS" signature="validateEmpname()[pri:1, instance:com.NewSElTest.TestPage.PIMPageTest@54c562f7]" name="validateEmpname" duration-ms="8340" started-at="2020-08-14T16:40:13Z" finished-at="2020-08-14T16:40:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateEmpname -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.PIMPageTest@54c562f7]" name="tearDown" is-config="true" duration-ms="4443" started-at="2020-08-07T18:15:50Z" finished-at="2020-08-07T18:15:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.PIMPageTest@54c562f7]" name="tearDown" is-config="true" duration-ms="4416" started-at="2020-08-14T16:40:22Z" finished-at="2020-08-14T16:40:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.PIMPageTest@54c562f7]" name="setUp" is-config="true" duration-ms="13007" started-at="2020-08-07T18:17:03Z" finished-at="2020-08-07T18:17:16Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.PIMPageTest@54c562f7]" name="setUp" is-config="true" duration-ms="13976" started-at="2020-08-14T16:41:31Z" finished-at="2020-08-14T16:41:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validatePerson()[pri:2, instance:com.NewSElTest.TestPage.PIMPageTest@54c562f7]" name="validatePerson" duration-ms="14297" started-at="2020-08-07T18:17:16Z" finished-at="2020-08-07T18:17:30Z">
+        <test-method status="PASS" signature="validatePerson()[pri:2, instance:com.NewSElTest.TestPage.PIMPageTest@54c562f7]" name="validatePerson" duration-ms="14062" started-at="2020-08-14T16:41:45Z" finished-at="2020-08-14T16:41:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePerson -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.PIMPageTest@54c562f7]" name="tearDown" is-config="true" duration-ms="86" started-at="2020-08-07T18:17:30Z" finished-at="2020-08-07T18:17:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.PIMPageTest@54c562f7]" name="tearDown" is-config="true" duration-ms="119" started-at="2020-08-14T16:41:59Z" finished-at="2020-08-14T16:41:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.NewSElTest.TestPage.PIMPageTest -->
       <class name="com.NewSElTest.TestPage.LeaveTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@318ba8c8]" name="setUp" is-config="true" duration-ms="13382" started-at="2020-08-07T18:15:54Z" finished-at="2020-08-07T18:16:08Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@318ba8c8]" name="setUp" is-config="true" duration-ms="14077" started-at="2020-08-14T16:40:26Z" finished-at="2020-08-14T16:40:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyToDate()[pri:1, instance:com.NewSElTest.TestPage.LeaveTest@318ba8c8]" name="VerifyToDate" duration-ms="9232" started-at="2020-08-07T18:16:08Z" finished-at="2020-08-07T18:16:17Z">
+        <test-method status="PASS" signature="VerifyToDate()[pri:1, instance:com.NewSElTest.TestPage.LeaveTest@318ba8c8]" name="VerifyToDate" duration-ms="9470" started-at="2020-08-14T16:40:40Z" finished-at="2020-08-14T16:40:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyToDate -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@318ba8c8]" name="tearDown" is-config="true" duration-ms="91" started-at="2020-08-07T18:16:17Z" finished-at="2020-08-07T18:16:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@318ba8c8]" name="tearDown" is-config="true" duration-ms="155" started-at="2020-08-14T16:40:50Z" finished-at="2020-08-14T16:40:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@318ba8c8]" name="setUp" is-config="true" duration-ms="12972" started-at="2020-08-07T18:17:30Z" finished-at="2020-08-07T18:17:43Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@318ba8c8]" name="setUp" is-config="true" duration-ms="12623" started-at="2020-08-14T16:41:59Z" finished-at="2020-08-14T16:42:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyCheckStstus()[pri:2, instance:com.NewSElTest.TestPage.LeaveTest@318ba8c8]" name="verifyCheckStstus" duration-ms="10734" started-at="2020-08-07T18:17:43Z" finished-at="2020-08-07T18:17:54Z">
+        <test-method status="PASS" signature="verifyCheckStstus()[pri:2, instance:com.NewSElTest.TestPage.LeaveTest@318ba8c8]" name="verifyCheckStstus" duration-ms="11644" started-at="2020-08-14T16:42:12Z" finished-at="2020-08-14T16:42:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckStstus -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@318ba8c8]" name="tearDown" is-config="true" duration-ms="98" started-at="2020-08-07T18:17:54Z" finished-at="2020-08-07T18:17:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@318ba8c8]" name="tearDown" is-config="true" duration-ms="132" started-at="2020-08-14T16:42:24Z" finished-at="2020-08-14T16:42:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@318ba8c8]" name="setUp" is-config="true" duration-ms="13304" started-at="2020-08-07T18:17:54Z" finished-at="2020-08-07T18:18:07Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@318ba8c8]" name="setUp" is-config="true" duration-ms="13485" started-at="2020-08-14T16:42:24Z" finished-at="2020-08-14T16:42:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateConfigure()[pri:3, instance:com.NewSElTest.TestPage.LeaveTest@318ba8c8]" name="validateConfigure" duration-ms="3782" started-at="2020-08-07T18:18:07Z" finished-at="2020-08-07T18:18:11Z">
+        <test-method status="PASS" signature="validateConfigure()[pri:3, instance:com.NewSElTest.TestPage.LeaveTest@318ba8c8]" name="validateConfigure" duration-ms="3494" started-at="2020-08-14T16:42:37Z" finished-at="2020-08-14T16:42:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateConfigure -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@318ba8c8]" name="tearDown" is-config="true" duration-ms="112" started-at="2020-08-07T18:18:11Z" finished-at="2020-08-07T18:18:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LeaveTest@318ba8c8]" name="tearDown" is-config="true" duration-ms="132" started-at="2020-08-14T16:42:41Z" finished-at="2020-08-14T16:42:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.NewSElTest.TestPage.LeaveTest -->
       <class name="com.NewSElTest.TestPage.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@6b26e945]" name="setup" is-config="true" duration-ms="7565" started-at="2020-08-07T18:13:23Z" finished-at="2020-08-07T18:13:30Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@6b26e945]" name="setup" is-config="true" duration-ms="13407" started-at="2020-08-14T16:37:50Z" finished-at="2020-08-14T16:38:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateAccont(java.lang.String, java.lang.String)[pri:0, instance:com.NewSElTest.TestPage.LoginTest@6b26e945]" name="validateAccont" duration-ms="7857" started-at="2020-08-07T18:13:30Z" data-provider="LoginData" finished-at="2020-08-07T18:13:38Z">
+        <test-method status="PASS" signature="validateAccont(java.lang.String, java.lang.String)[pri:0, instance:com.NewSElTest.TestPage.LoginTest@6b26e945]" name="validateAccont" duration-ms="7480" started-at="2020-08-14T16:38:04Z" data-provider="LoginData" finished-at="2020-08-14T16:38:11Z">
           <params>
             <param index="0">
               <value>
@@ -91,15 +91,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAccont -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@6b26e945]" name="tearDown" is-config="true" duration-ms="4242" started-at="2020-08-07T18:13:38Z" finished-at="2020-08-07T18:13:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@6b26e945]" name="tearDown" is-config="true" duration-ms="4252" started-at="2020-08-14T16:38:11Z" finished-at="2020-08-14T16:38:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@6b26e945]" name="setup" is-config="true" duration-ms="7288" started-at="2020-08-07T18:13:42Z" finished-at="2020-08-07T18:13:50Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@6b26e945]" name="setup" is-config="true" duration-ms="7850" started-at="2020-08-14T16:38:16Z" finished-at="2020-08-14T16:38:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateAccont(java.lang.String, java.lang.String)[pri:0, instance:com.NewSElTest.TestPage.LoginTest@6b26e945]" name="validateAccont" duration-ms="5081" started-at="2020-08-07T18:13:50Z" data-provider="LoginData" finished-at="2020-08-07T18:13:55Z">
+        <test-method status="PASS" signature="validateAccont(java.lang.String, java.lang.String)[pri:0, instance:com.NewSElTest.TestPage.LoginTest@6b26e945]" name="validateAccont" duration-ms="4708" started-at="2020-08-14T16:38:24Z" data-provider="LoginData" finished-at="2020-08-14T16:38:28Z">
           <params>
             <param index="0">
               <value>
@@ -115,29 +115,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAccont -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@6b26e945]" name="tearDown" is-config="true" duration-ms="98" started-at="2020-08-07T18:13:55Z" finished-at="2020-08-07T18:13:55Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@6b26e945]" name="tearDown" is-config="true" duration-ms="166" started-at="2020-08-14T16:38:28Z" finished-at="2020-08-14T16:38:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@6b26e945]" name="setup" is-config="true" duration-ms="8144" started-at="2020-08-07T18:13:55Z" finished-at="2020-08-07T18:14:03Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@6b26e945]" name="setup" is-config="true" duration-ms="7048" started-at="2020-08-14T16:38:28Z" finished-at="2020-08-14T16:38:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validatePageTitle()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@6b26e945]" name="validatePageTitle" duration-ms="29" started-at="2020-08-07T18:14:03Z" finished-at="2020-08-07T18:14:03Z">
+        <test-method status="PASS" signature="validatePageTitle()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@6b26e945]" name="validatePageTitle" duration-ms="22" started-at="2020-08-14T16:38:35Z" finished-at="2020-08-14T16:38:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@6b26e945]" name="tearDown" is-config="true" duration-ms="93" started-at="2020-08-07T18:14:03Z" finished-at="2020-08-07T18:14:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.LoginTest@6b26e945]" name="tearDown" is-config="true" duration-ms="88" started-at="2020-08-14T16:38:35Z" finished-at="2020-08-14T16:38:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.NewSElTest.TestPage.LoginTest -->
       <class name="com.NewSElTest.TestPage.HomeTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="setup" is-config="true" duration-ms="14728" started-at="2020-08-07T18:14:03Z" finished-at="2020-08-07T18:14:18Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="setup" is-config="true" duration-ms="13868" started-at="2020-08-14T16:38:36Z" finished-at="2020-08-14T16:38:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ValidateUser(java.lang.String, java.lang.String)[pri:1, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="ValidateUser" duration-ms="26137" started-at="2020-08-07T18:14:18Z" data-provider="HomeData" finished-at="2020-08-07T18:14:44Z">
+        <test-method status="PASS" signature="ValidateUser(java.lang.String, java.lang.String)[pri:1, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="ValidateUser" duration-ms="25093" started-at="2020-08-14T16:38:50Z" data-provider="HomeData" finished-at="2020-08-14T16:39:15Z">
           <params>
             <param index="0">
               <value>
@@ -153,15 +153,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateUser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="tearDown" is-config="true" duration-ms="96" started-at="2020-08-07T18:14:44Z" finished-at="2020-08-07T18:14:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="tearDown" is-config="true" duration-ms="4437" started-at="2020-08-14T16:39:15Z" finished-at="2020-08-14T16:39:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="setup" is-config="true" duration-ms="14622" started-at="2020-08-07T18:14:44Z" finished-at="2020-08-07T18:14:59Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="setup" is-config="true" duration-ms="14787" started-at="2020-08-14T16:39:19Z" finished-at="2020-08-14T16:39:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ValidateUser(java.lang.String, java.lang.String)[pri:1, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="ValidateUser" duration-ms="25227" started-at="2020-08-07T18:14:59Z" data-provider="HomeData" finished-at="2020-08-07T18:15:24Z">
+        <test-method status="PASS" signature="ValidateUser(java.lang.String, java.lang.String)[pri:1, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="ValidateUser" duration-ms="24708" started-at="2020-08-14T16:39:34Z" data-provider="HomeData" finished-at="2020-08-14T16:39:59Z">
           <params>
             <param index="0">
               <value>
@@ -177,15 +177,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateUser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="tearDown" is-config="true" duration-ms="120" started-at="2020-08-07T18:15:24Z" finished-at="2020-08-07T18:15:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="tearDown" is-config="true" duration-ms="279" started-at="2020-08-14T16:39:59Z" finished-at="2020-08-14T16:39:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="setup" is-config="true" duration-ms="13160" started-at="2020-08-07T18:16:17Z" finished-at="2020-08-07T18:16:30Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="setup" is-config="true" duration-ms="13626" started-at="2020-08-14T16:40:50Z" finished-at="2020-08-14T16:41:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateSearch(java.lang.String, java.lang.String)[pri:2, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="validateSearch" duration-ms="7612" started-at="2020-08-07T18:16:30Z" data-provider="HomeData" finished-at="2020-08-07T18:16:38Z">
+        <test-method status="PASS" signature="validateSearch(java.lang.String, java.lang.String)[pri:2, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="validateSearch" duration-ms="6905" started-at="2020-08-14T16:41:04Z" data-provider="HomeData" finished-at="2020-08-14T16:41:10Z">
           <params>
             <param index="0">
               <value>
@@ -201,15 +201,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="tearDown" is-config="true" duration-ms="4437" started-at="2020-08-07T18:16:38Z" finished-at="2020-08-07T18:16:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="tearDown" is-config="true" duration-ms="122" started-at="2020-08-14T16:41:10Z" finished-at="2020-08-14T16:41:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="setup" is-config="true" duration-ms="12953" started-at="2020-08-07T18:16:42Z" finished-at="2020-08-07T18:16:55Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="setup" is-config="true" duration-ms="13111" started-at="2020-08-14T16:41:11Z" finished-at="2020-08-14T16:41:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateSearch(java.lang.String, java.lang.String)[pri:2, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="validateSearch" duration-ms="7512" started-at="2020-08-07T18:16:55Z" data-provider="HomeData" finished-at="2020-08-07T18:17:03Z">
+        <test-method status="PASS" signature="validateSearch(java.lang.String, java.lang.String)[pri:2, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="validateSearch" duration-ms="7318" started-at="2020-08-14T16:41:24Z" data-provider="HomeData" finished-at="2020-08-14T16:41:31Z">
           <params>
             <param index="0">
               <value>
@@ -225,7 +225,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="tearDown" is-config="true" duration-ms="66" started-at="2020-08-07T18:17:03Z" finished-at="2020-08-07T18:17:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NewSElTest.TestPage.HomeTest@63a65a25]" name="tearDown" is-config="true" duration-ms="349" started-at="2020-08-14T16:41:31Z" finished-at="2020-08-14T16:41:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
